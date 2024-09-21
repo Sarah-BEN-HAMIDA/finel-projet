@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOS and Shop for the Pets</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" async></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav class="navbar container">
+        <a href="#"> </a>
+        <img src="SoS Pet.png" alt="" />
+        <h1>SOS and shop for the Pets</h1>
+        <ul class="main_nav">
+          <li>
+            <a href="#petsos">About us</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#shop">shop</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- fin header -->
+    <!-- intodaction -->
+    <h2 id="petsos">Pet SOS :</h2>
+    <p class="introdaction">
+      Welcome to our official page , is a vetrinariand and shop page for our cat
+      and dog<br />
+      Our page provides medical online services for our pet<br />You can also
+      buy their supplies from here
+    </p>
+    <!-- fin intodaction -->
+    <!-- information -->
+    <div id="services" class="general-information">
+      <h2>Take an Appointment :</h2>
+
+      <form class="label">
+        <label>First Name :</label>
+        <input type="text" name="firstName" />
+
+        <label> /Last Name :</label>
+        <input type="text" name="lastName" />
+
+        <br />
+        <label> Phone Number:</label>
+        <input type="number" name="number" />
+        <label for="email">/Enter your email:</label>
+        <input type="email" id="email" name="email" />
+        <br />
+      </form>
+      <!-- fin information -->
+      <!-- about pet -->
+      <h4>choose the Pet :</h4>
+      <div>
+        <input type="checkbox" id="Vaccination" name="Vaccination" checked />
+        <label for="Vaccination">Dog</label>
+      </div>
+      <div>
+        <input type="checkbox" id="Vaccination" name="Vaccination" checked />
+        <label for="Vaccination">Cat</label>
+      </div>
+
+      <form>
+        <label> => Animal type :</label>
+        <input type="text" name="type of the pet" />
+      </form>
+    </div>
+    <div>
+      <h3>Is it your frist time visit us :</h3>
+
+      <input type="radio" name="q1" id="q1a" />
+
+      <label for="q1a">Yes</label>
+
+      <input type="radio" name="q1" id="q1b" />
+
+      <label for="q1b">No</label>
+
+      <p class="answer" style="display: none">q1b</p>
+
+      <h4 id="service">Choose the services:</h4>
+
+      <div>
+        <input type="checkbox" id="Vaccination" name="Vaccination" checked />
+        <label for="Vaccination">Vaccination</label>
+      </div>
+
+      <div>
+        <input
+          type="checkbox"
+          id="Washing ans Cleanings"
+          name="Washing ans Cleaning"
+        />
+        <label for="Washing ans Cleaning">Washing and Cleaning</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="Examination" name="Examination" />
+        <label for="Examination">Examination</label>
+      </div>
+      <h4 id="place">Choose the place</h4>
+      <select>
+        <option value="At your Houme">At your Houme</option>
+        <option value="In a Doctor's Office">In a Doctor's Office</option>
+      </select>
+    </div>
+    <button onclick="myFunction()">Confirm</button>
+    <!-- fin about pet -->
+    <!-- shoping -->
+
+    <h2 id="shop">shopping space</h2>
+
+    <section class="section container">
+      <div class="cart">
+        <div class="item">
+          <img src="img/20200924-tsc-4health-GrainFree-LP-Tiles.webp" alt="" />
+          <div class="bady-cart">
+            <h4>4Helth</h4>
+
+            <h5 class="price">
+              <div class="theprice">30</div>
+              dt
+            </h5>
+            <div class="p-y">
+              <i class="fa-solid fa-square-minus fa-xl"></i>
+              <span class="quantity">0</span>
+              <i class="fa-solid fa-square-plus fa-xl"></i>
+            </div>
+            <div class="p-y">
+              <i class="fa-solid fa-thumbs-up fa-xl"></i>
+            </div>
+          </div>
+        </div>
+        <!--begin -->
+        <div class="item">
+          <img
+            src="img/holistic-select-adult-health-anchovy-sardine-and-salmon-meal-recipe-dry-dog-food.jpg"
+            alt=""
+          />
+          <div class="bady-cart">
+            <h4>Holistic</h4>
+
+            <div>
+              <h5 class="price">
+                <div class="theprice">30</div>
+                dt
+              </h5>
+              <div class="p-y">
+                <i class="fa-solid fa-square-minus fa-xl"></i>
+                <span class="quantity">0</span>
+                <i class="fa-solid fa-square-plus fa-xl"></i>
+              </div>
+              <div class="p-y">
+                <i class="fa-solid fa-thumbs-up fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <div class="item">
+          <img
+            src="img/Adult-Dog-Food-Small-Breed-Senior-Light-Bow-Tie-Dogs-Cat-Joint-Cats-Breakaway-Kimono-Quick-Snap-Step-In-Harness-And-Sets-No-Pull-Adjustable-Reflectiv_d962c374-ac0c-46b0-a79f-6e9e2aa10b70.82d7a98ceedf19d35f0fedb65d.webp"
+            alt=""
+          />
+          <div class="bady-cart">
+            <h4>Dog Harness</h4>
+
+            <div>
+              <h5 class="price">
+                <div class="theprice">50</div>
+                dt
+              </h5>
+              <div class="p-y">
+                <i class="fa-solid fa-square-minus fa-xl"></i>
+                <span class="quantity">0</span>
+                <i class="fa-solid fa-square-plus fa-xl"></i>
+              </div>
+              <div class="p-y">
+                <i class="fa-solid fa-thumbs-up fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <!-- begin -->
+        <div class="item">
+          <img
+            src="img/20200924-tsc-4health-SpecialCare-LP-Tiles.webp"
+            alt=""
+          />
+          <div class="bady-cart">
+            <h4>4Health</h4>
+
+            <div>
+              <h5 class="price">
+                <div class="theprice">35</div>
+                dt
+              </h5>
+              <div class="p-y">
+                <i class="fa-solid fa-square-minus fa-xl"></i>
+                <span class="quantity">0</span>
+                <i class="fa-solid fa-square-plus fa-xl"></i>
+              </div>
+              <div class="p-y">
+                <i class="fa-solid fa-thumbs-up fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <!-- begin -->
+        <div class="item">
+          <img
+            src="img/Cat-Adjustable-Collar-Dog-Accessories-Pet-Supply-Harness-Puppy-Kitten-With-Bell-Breakaway-Charms-Cute-Pink.webp"
+            alt=""
+          />
+          <div class="bady-cart">
+            <h4>Cat Toy</h4>
+
+            <div>
+              <h5 class="price">
+                <div class="theprice">15</div>
+                dt
+              </h5>
+              <div class="p-y">
+                <i class="fa-solid fa-square-minus fa-xl"></i>
+                <span class="quantity">0</span>
+                <i class="fa-solid fa-square-plus fa-xl"></i>
+              </div>
+              <div class="p-y">
+                <i class="fa-solid fa-thumbs-up fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <!-- begin -->
+        <div class="item">
+          <img src="img/th.jpeg" alt="" />
+          <div class="bady-cart">
+            <h4>Cat Steam Brush for</h4>
+
+            <div>
+              <h5 class="price">
+                <div class="theprice">6</div>
+                dt
+              </h5>
+              <div class="p-y">
+                <i class="fa-solid fa-square-minus fa-xl"></i>
+                <span class="quantity">0</span>
+                <i class="fa-solid fa-square-plus fa-xl"></i>
+              </div>
+              <div class="p-y">
+                <i class="fa-solid fa-thumbs-up fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <!-- begin -->
+        <div class="item">
+          <img src="img/R.png" alt="" />
+          <div class="bady-cart">
+            <h4>Purina ONE</h4>
+
+            <div>
+              <h5 class="price">
+                <div class="theprice">45 <br /></div>
+                dt
+              </h5>
+              <div class="p-y">
+                <i class="fa-solid fa-square-minus fa-xl"></i>
+                <span class="quantity">0</span>
+                <i class="fa-solid fa-square-plus fa-xl"></i>
+              </div>
+              <div class="p-y">
+                <i class="fa-solid fa-thumbs-up fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <!-- begin -->
+        <div class="item">
+          <img src="img/R.jpeg" alt="" />
+          <div class="bady-cart">
+            <h4>Bakers</h4>
+
+            <div>
+              <h5 class="price">
+                <div class="theprice">25 <br /></div>
+                dt
+              </h5>
+              <div class="p-y">
+                <i class="fa-solid fa-square-minus fa-xl"></i>
+                <span class="quantity">0</span>
+                <i class="fa-solid fa-square-plus fa-xl"></i>
+              </div>
+              <div class="p-y">
+                <i class="fa-solid fa-thumbs-up fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <!-- begin -->
+        <div class="item">
+          <img src="img/OIP.jpeg" alt="" />
+          <div class="bady-cart">
+            <h4>Kitty Aid 50 Ml</h4>
+
+            <div>
+              <h5 class="price">
+                <div class="theprice">20<br /></div>
+                dt
+              </h5>
+              <div class="p-y">
+                <i class="fa-solid fa-square-minus fa-xl"></i>
+                <span class="quantity">0</span>
+                <i class="fa-solid fa-square-plus fa-xl"></i>
+              </div>
+              <div class="p-y">
+                <i class="fa-solid fa-thumbs-up fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <!-- begin -->
+        <div class="item">
+          <img src="img/OIP (2).jpeg" alt="" />
+          <div class="bady-cart">
+            <h4>Turmeric Chews</h4>
+
+            <div>
+              <h5 class="price">
+                <span class="theprice">16</span>
+                dt
+              </h5>
+              <div class="p-y">
+                <i class="fa-solid fa-square-minus fa-xl"></i>
+                <span class="quantity">0</span>
+                <i class="fa-solid fa-square-plus fa-xl"></i>
+              </div>
+              <div class="p-y">
+                <i class="fa-solid fa-thumbs-up fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <!-- begin -->
+        <div class="item">
+          <img src="img/download.jpeg" alt="" />
+          <div class="bady-cart">
+            <h4>Pet Dog Collar Fashion</h4>
+
+            <div>
+              <h5 class="price">
+                <div class="theprice">5 <br /></div>
+                dt
+              </h5>
+              <div class="p-y">
+                <i class="fa-solid fa-square-minus fa-xl"></i>
+                <span class="quantity">0</span>
+                <i class="fa-solid fa-square-plus fa-xl"></i>
+              </div>
+              <div class="p-y">
+                <i class="fa-solid fa-thumbs-up fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <!-- begin -->
+        <div class="item">
+          <img src="img/Cephacare-F-50mg.jpg" alt="" />
+          <div class="bady-cart">
+            <h4>Cephacare F 50mg</h4>
+
+            <div>
+              <h5 class="price">
+                <div class="theprice">34</div>
+                dt
+              </h5>
+
+              <div class="p-y">
+                <i class="fa-solid fa-square-minus fa-xl"></i>
+                <span class="quantity">0</span>
+                <i class="fa-solid fa-square-plus fa-xl"></i>
+              </div>
+              <div class="p-y">
+                <i class="fa-solid fa-thumbs-up fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <!-- begin -->
+        <div class="item">
+          <img
+            src="img/0114247c-2a16-4473-9c4f-128b2e98c13b_1.f3703639d9ca7c49d28e4285b2a56e7c.webp"
+            alt=""
+          />
+          <div class="bady-cart">
+            <h4>Catego</h4>
+
+            <div>
+              <h5 class="price">
+                <div class="theprice">20 <br /></div>
+                dt
+              </h5>
+              <div class="p-y">
+                <i class="fa-solid fa-square-minus fa-xl"></i>
+                <span class="quantity">0</span>
+                <i class="fa-solid fa-square-plus fa-xl"></i>
+              </div>
+              <div class="p-y">
+                <i class="fa-solid fa-thumbs-up fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="total-price card">
+          <strong>Total: </strong><span id="total">0.00</span> DT
+          <button onclick="myFunction2()">Confirm</button>
+        </div>
+        <form action="label">
+          <label for="email" class="label">Enter your email:</label>
+          <input type="email" id="label" name="email" />
+          <br />
+        </form>
+        <!-- end -->
+      </div>
+    </section>
+    <!-- contacte -->
+    <section id="contact" class="contactus">
+      <h2>Contact US</h2>
+      <div class="contact">
+        <h3>Hours</h3>
+        <h3>Contact</h3>
+      </div>
+
+      <div class="hours">
+        <p>
+          Monday: 07AM-9PM <br />
+          Tuesday: 07AM-9PM <br />
+          Wednesday: 07AM-9PM <br />Thursday: 09AM-5PM <br />
+          Friday: 09AM-6PM Saturday: CLOSED <br />
+          Sunday: 10AM-2PM
+        </p>
+        <div>
+          <div class="contacteus">
+            <i class="fa-solid fa-envelope fa-2x"></i>
+
+            <p id="gmail">SOSPET@gmail.com</p>
+          </div>
+          <div class="contacteus">
+            <i class="fa-solid fa-phone fa-2x"></i>
+
+            <p id="phone">70 000 000</p>
+          </div>
+          <div class="contacteus">
+            <i class="fa-solid fa-location-dot fa-2x"></i>
+
+            <p id="location">Tunisia, Rue Habib Bourgiba</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="main_footer">
+      <p>Copyright@2024_SOS_PET <a href="#">Dog and Cat</a></p>
+
+      <p id="www">www.SosPet.com @2024</p>
+    </footer>
+
+    <!-- fin footer -->
+  </body>
+</html>
